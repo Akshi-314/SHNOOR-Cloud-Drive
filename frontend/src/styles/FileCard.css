@@ -1,0 +1,31 @@
+.file-card{
+    background:#ffffff;
+    border-radius:16px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+    cursor:pointer;
+    border:1px solid #f1f1f1;
+}
+
+.file-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.file-icon{
+    font-size:52px;
+    margin-bottom:12px;
+}
+
+.file-card h4{
+    margin:10px 0;
+    color:#222;
+    font-size:17px;
+}
+
+.file-card p{
+    color:#777;
+    font-size:14px;
+}
