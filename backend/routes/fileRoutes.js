@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const upload = require("../middleware/upload_temp");
+const upload = require("../middleware/upload");
 const {
   uploadFile,
   getFiles,
